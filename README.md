@@ -1,2 +1,2 @@
 # ChatClienteServidor
-programa Python con arquitectura Cliente servidor, usando sockets para una comunicación bidireccional.
+Programa Python con arquitectura Cliente servidor, usando socket para una comunicación bidireccional.
