@@ -10,6 +10,10 @@ Juan Sebastian Vega
 #ChatClienteServidor
 Programa Python con arquitectura Cliente servidor, usando socket para una comunicación bidireccional.
 
+![image](https://user-images.githubusercontent.com/80139895/110247939-a650a380-7f3c-11eb-9d74-6e07163278f3.png)
+
+
+
 #¿Cómo instalar la aplicación?
 1) Esta aplicacion esta compuesta por dos parte (Cliente-Servidoor), una vez clonado el repositorio
 debes ejecutar en primera instancia el Servidor (servidor.py)
