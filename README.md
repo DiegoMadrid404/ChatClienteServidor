@@ -1,13 +1,19 @@
 #Especialización en Ingeniría de Software
+
 #Informatica I
+
 #Tarea 1 : Ejemplo Simple Cliente-Servidor o Capas
 
 #Integrantes:
+
 Luz Amanda Quilindo
+
 Diego Alejandro Madrid
+
 Juan Sebastian Vega
 
 #ChatClienteServidor
+
 Programa Python con arquitectura Cliente servidor, usando socket para una comunicación bidireccional.
 
 
@@ -17,9 +23,11 @@ Programa Python con arquitectura Cliente servidor, usando socket para una comuni
 #¿Cómo instalar la aplicación?
 1) Esta aplicacion esta compuesta por dos parte (Cliente-Servidoor), una vez clonado el repositorio
 debes ejecutar en primera instancia el Servidor (servidor.py)
+
 		python servidor.py
 		
 2) Ejecutar el Cliente (cliente.py) en la consola
+
 		python cliente.py
 		
 3) Para salir de la aplicación el cliente debe digitar la palabra "Salir"
