@@ -10,7 +10,7 @@ Juan Sebastian Vega
 #ChatClienteServidor
 Programa Python con arquitectura Cliente servidor, usando socket para una comunicación bidireccional.
 
-![image](https://user-images.githubusercontent.com/80139895/110247939-a650a380-7f3c-11eb-9d74-6e07163278f3.png)
+
 
 
 
@@ -63,4 +63,6 @@ permitiendo que se generen daños físicos, amenazas o ataques de malware.
 4) Representa una limitación importante en cuanto a los costos económicos debido a que estos servidores son
 computadoras de alto nivel con un hardware y software específicos para poder dar un correcto funcionamiento
 a nuestras aplicaciones.
+
+![image](https://user-images.githubusercontent.com/80139895/110247939-a650a380-7f3c-11eb-9d74-6e07163278f3.png)
 
