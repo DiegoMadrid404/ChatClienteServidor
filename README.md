@@ -32,6 +32,9 @@ debes ejecutar en primera instancia el Servidor (servidor.py)
 Nota: Antes de correr el cliente en la consola de comando, asegurarse de que el puerto seleccionado
 se encuentre libre para ser usado por la aplicación.
 
+
+![image](https://user-images.githubusercontent.com/80139895/110247939-a650a380-7f3c-11eb-9d74-6e07163278f3.png)
+
 #Ventajas Arquitectura CLiente - Servidor
 
 1) Los accesos, recursos y la integridad de los datos son controlados por el servidor de la arquitectura,
@@ -79,7 +82,9 @@ Contra:
 1. Si el servidor se cae, la aplicativa falla.
 2. Si el puerto del servidor está ocupado, el cliente no puede hacer peticiones.
 3. Si el servidor recibe peticiones simultáneamente de muchos clientes puede fallar.
+4. 
+![image](https://user-images.githubusercontent.com/71359745/110264551-85617000-7f87-11eb-88c3-063f1d59845c.png)
 
 
-![image](https://user-images.githubusercontent.com/80139895/110247939-a650a380-7f3c-11eb-9d74-6e07163278f3.png)
+
 
