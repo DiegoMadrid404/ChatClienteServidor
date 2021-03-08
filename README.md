@@ -72,6 +72,8 @@ permitiendo que se generen daños físicos, amenazas o ataques de malware.
 computadoras de alto nivel con un hardware y software específicos para poder dar un correcto funcionamiento
 a nuestras aplicaciones.
 
+![image](https://user-images.githubusercontent.com/71359745/110264551-85617000-7f87-11eb-88c3-063f1d59845c.png)
+
 #Pros y contras del chat C/S
 Pros:
 1. Centralizamos todo el proceso que realiza el receptor del chat en un solo punto.
@@ -82,8 +84,8 @@ Contra:
 1. Si el servidor se cae, la aplicativa falla.
 2. Si el puerto del servidor está ocupado, el cliente no puede hacer peticiones.
 3. Si el servidor recibe peticiones simultáneamente de muchos clientes puede fallar.
-4. 
-![image](https://user-images.githubusercontent.com/71359745/110264551-85617000-7f87-11eb-88c3-063f1d59845c.png)
+
+
 
 
 
