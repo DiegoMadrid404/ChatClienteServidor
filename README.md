@@ -17,9 +17,6 @@ Juan Sebastian Vega
 Programa Python con arquitectura Cliente servidor, usando socket para una comunicación bidireccional.
 
 
-
-
-
 #¿Cómo instalar la aplicación?
 1) Esta aplicacion esta compuesta por dos parte (Cliente-Servidoor), una vez clonado el repositorio
 debes ejecutar en primera instancia el Servidor (servidor.py)
@@ -37,12 +34,12 @@ se encuentre libre para ser usado por la aplicación.
 
 #Ventajas Arquitectura CLiente - Servidor
 
-1) Los accesos, recursos y la integridad de los datos con controlados por el servidor de la arquitectura,
+1) Los accesos, recursos y la integridad de los datos son controlados por el servidor de la arquitectura,
 de forma que podemos centralizar la información de la empresa o compañía en un solo punto al cual los clientes
 tienen que acceder para consultar.
 
 2) El estado de los clientes (defectuoso o caído) no afecta el servidor dentro de la arquitectura, el servidor
-puede continuar funcionando de independiente de la cantidad de clientes o el estado de los mismos.
+puede continuar funcionando independiente de la cantidad de clientes o el estado de los mismos.
 
 3) Se puede aumentar la capacidad de clientes y servidores por separado. Cualquier elemento puede ser aumentado 
 (o mejorado) en cualquier momento, o se pueden añadir nuevos nodos a la red (clientes y/o servidores).
@@ -71,6 +68,18 @@ permitiendo que se generen daños físicos, amenazas o ataques de malware.
 4) Representa una limitación importante en cuanto a los costos económicos debido a que estos servidores son
 computadoras de alto nivel con un hardware y software específicos para poder dar un correcto funcionamiento
 a nuestras aplicaciones.
+
+#Pros y contras del chat C/S
+Pros:
+1. Centralizamos todo el proceso que realiza el receptor del chat en un solo punto.
+2. Un chat C/S puede tener más de un cliente haciendo solicitudes.
+3. Permite una comunicación rápida y directa entre el emisor y receptor.
+
+Contra:
+1. Si el servidor se cae, la aplicativa falla.
+2. Si el puerto del servidor está ocupado, el cliente no puede hacer peticiones.
+3. Si el servidor recibe peticiones simultáneamente de muchos clientes puede fallar.
+
 
 ![image](https://user-images.githubusercontent.com/80139895/110247939-a650a380-7f3c-11eb-9d74-6e07163278f3.png)
 
